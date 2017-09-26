@@ -6,12 +6,13 @@ Python script for getting encoded text from PNG pictures
 ```
 $ git clone https://github.com/s373r/steganography-png-decoder.git
 $ cd steganography-png-decoder
+$ chmod +x steganography-png-decoder.py
 ```
 
 # Bacis usage
 
 ```
-$ python3 steganography-png-decoder.py -h
+$ ./steganography-png-decoder.py -h
 ```
 
 ```
@@ -27,7 +28,7 @@ optional arguments:
 ```
 ---
 ```
-$ python3 steganography-png-decoder.py samples/tEXT-chunks.png
+$ ./steganography-png-decoder.py samples/tEXT-chunks.png
 ```
 ```
 [00000049-00000074] tEXt:
