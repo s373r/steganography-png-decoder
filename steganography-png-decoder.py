@@ -79,7 +79,7 @@ from enum import Enum
 from mmap import ACCESS_READ, mmap
 
 import argparse
-import collections
+import collections.abc
 import os
 import struct
 import sys
@@ -187,7 +187,7 @@ class Chunk:
         return self.start_position + self.length
 
 
-class ChunkIterator(collections.Iterator):
+class ChunkIterator(collections.abc.Iterator):
     def __init__(self, file):
         self._stop = False
         self._file = file
