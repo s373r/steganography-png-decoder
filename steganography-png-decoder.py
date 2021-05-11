@@ -41,6 +41,8 @@
 #
 # iCCP - is an ICC color profile.
 #
+# iDOT - Apple's undocumented performance and/or tamper protection PNG chunk.
+#
 # iTXt - contains a keyword and UTF-8 text, with encodings for possible
 #        compression and translations marked with language tag. The Extensible
 #        Metadata Platform (XMP) uses this chunk with a keyword
@@ -110,16 +112,17 @@ class ChunkTypes(Enum):
     gAMA = 9
     hIST = 10
     iCCP = 11
-    iTXt = 12
-    pHYs = 13
-    sBIT = 14
-    sPLT = 15
-    sRGB = 16
-    sTER = 17
-    tEXt = 18
-    tIME = 19
-    tRNS = 20
-    zTXt = 21
+    iDOT = 12
+    iTXt = 13
+    pHYs = 14
+    sBIT = 15
+    sPLT = 16
+    sRGB = 17
+    sTER = 18
+    tEXt = 19
+    tIME = 20
+    tRNS = 21
+    zTXt = 22
 
     def __str__(self):
         return self.name
