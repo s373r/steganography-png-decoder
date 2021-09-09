@@ -55,3 +55,11 @@ Software Created on a NeXTstation color using "pnmtopng".
 [00000536-00000567] tEXt:
 Disclaimer Freeware.
 ```
+
+## Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Code conduction
+
+This project uses [Gitmoji](https://gitmoji.carloscuesta.me) for commit messages.
