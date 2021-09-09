@@ -1,5 +1,6 @@
 # steganography-png-decoder
-Python script for getting encoded text from PNG pictures
+
+A Python script for extracting encoded text from PNG images.
 
 # Prepare
 
@@ -9,7 +10,7 @@ $ cd steganography-png-decoder
 $ chmod +x steganography-png-decoder.py
 ```
 
-# Bacis usage
+# Usage
 
 ```
 $ ./steganography-png-decoder.py -h
