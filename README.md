@@ -2,7 +2,7 @@
 
 A Python script for extracting encoded text from PNG images.
 
-# Prepare
+## Installation
 
 ```
 $ git clone https://github.com/s373r/steganography-png-decoder.git
@@ -10,7 +10,7 @@ $ cd steganography-png-decoder
 $ chmod +x steganography-png-decoder.py
 ```
 
-# Usage
+## Usage
 
 ```
 $ ./steganography-png-decoder.py -h
