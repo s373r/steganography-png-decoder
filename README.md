@@ -63,3 +63,7 @@ Contributions, issues and feature requests are welcome!
 ## Code conduction
 
 This project uses [Gitmoji](https://gitmoji.carloscuesta.me) for commit messages.
+
+## License
+
+[GPL-3.0 License](LICENSE)
